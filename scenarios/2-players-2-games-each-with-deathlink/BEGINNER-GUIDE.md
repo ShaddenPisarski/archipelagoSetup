@@ -288,17 +288,37 @@ Woran du erkennst, dass es richtig ist:
 Auf dem PC des jeweiligen Spielers:
 
 1. Suche die gebaute `sm64`-EXE.
-2. Nutze zum Starten die Room-Daten.
+2. **Ignoriere fuer den Noob-Weg die Befehlszeile.**
+3. Nutze stattdessen die Startvorlage.
 
-Wenn du eine Vorlage willst, nimm diese Datei:
+Nimm diese Datei:
 
 - [../../docs/games/super-mario-64/launch-sm64-template.bat](../../docs/games/super-mario-64/launch-sm64-template.bat)
+
+Dann:
+
+1. Kopiere `launch-sm64-template.bat` in **denselben Ordner**, in dem auch die gebaute `sm64`-EXE liegt.
+2. Oeffne die `.bat`-Datei mit dem Windows-Editor.
+3. Trage dort ein:
+   - `SLOT_NAME`
+   - `HOST_AND_PORT`
+   - optional `PASSWORD`
+   - `SM64_EXE`, falls deine EXE anders heisst
+4. Speichere die Datei.
+5. Doppelklicke danach die `.bat`-Datei.
 
 Was du dort eintragen musst:
 
 - `SLOT_NAME`
 - `HOST_AND_PORT`
 - optional `PASSWORD`
+
+Beispiel:
+
+- `SLOT_NAME=You_SM64`
+- `HOST_AND_PORT=multiworld.gg:54321`
+
+Nur falls du **doch** die Befehlszeile manuell benutzen willst, waere das der Startbefehl:
 
 Beispiel:
 
@@ -313,6 +333,7 @@ Wichtig:
 
 Woran du erkennst, dass es richtig ist:
 
+- die `.bat`-Datei startet die richtige `sm64`-EXE
 - die richtige `sm64`-EXE startet
 - du verbindest dich mit dem Room
 

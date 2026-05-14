@@ -70,6 +70,32 @@ Datei, die du am Ende startest:
 - nicht der ROM
 - nicht ein Emulator
 
+### Einfachster Windows-Weg ohne CLI
+
+Wenn du kein Terminal oder keine Kommandozeile benutzen willst, mach es so:
+
+1. Kopiere [launch-sm64-template.bat](./launch-sm64-template.bat) in **denselben Ordner**, in dem auch die gebaute `sm64`-EXE liegt.
+2. Oeffne die `.bat`-Datei mit dem Windows-Editor.
+3. Trage dort ein:
+   - `SLOT_NAME`
+   - `HOST_AND_PORT`
+   - optional `PASSWORD`
+   - `SM64_EXE`, falls deine EXE anders heisst
+4. Speichere die Datei.
+5. Doppelklicke danach die `.bat`-Datei.
+
+Wenn die `.bat`-Datei und die `sm64`-EXE im gleichen Ordner liegen, ist das fuer Windows-Nutzer der einfachste Weg.
+
+### Nur falls du doch die Kommandozeile nutzen willst
+
+Wenn du den Startbefehl manuell eingibst, machst du das normalerweise:
+
+- in `cmd`
+- in `PowerShell`
+- im Ordner, in dem die gebaute `sm64`-EXE liegt
+
+Dann kannst du dort diesen Befehl eingeben:
+
 ```bat
 sm64.us.f3dex2e.exe --sm64ap_name You_SM64 --sm64ap_ip multiworld.gg:54321
 ```
