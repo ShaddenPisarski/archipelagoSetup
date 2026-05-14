@@ -31,7 +31,7 @@ Wenn du diese Reihenfolge aenderst, wird es schnell unnoetig verwirrend.
 
 Auf beiden Windows-PCs:
 
-- `Super Mario 64` als legaler `US`- oder `JP`-ROM
+- eine passende `Super Mario 64`-ROM-Datei
 - `Sonic Adventure DX` ueber Steam
 - Internet
 
@@ -95,7 +95,7 @@ Auf **jedem** PC:
 
 Was hier passiert:
 
-- der Launcher nimmt euren `SM64`-ROM
+- der Launcher nimmt eure `SM64`-ROM-Datei
 - daraus wird eine spielbare Windows-EXE gebaut
 
 Woran du erkennst, dass es geklappt hat:

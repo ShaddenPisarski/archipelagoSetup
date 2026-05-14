@@ -12,7 +12,7 @@ Bei `SM64` ist der wichtige Zusatzteil der `SM64AP-Launcher`.
 
 So funktioniert es:
 
-1. Ihr habt einen legalen `SM64`-ROM.
+1. Ihr habt eine passende `SM64`-ROM-Datei.
 2. Der `SM64AP-Launcher` baut daraus eine eigene Windows-PC-Version von `SM64`.
 3. Diese gebaute `sm64`-EXE startet ihr spaeter mit euren Room-Daten.
 
