@@ -1,0 +1,10 @@
+Room URL:
+Host:
+Port:
+Password:
+
+Slots:
+- You_SM64
+- You_SADX
+- Brother_SM64
+- Brother_SADX
