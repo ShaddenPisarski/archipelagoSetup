@@ -2,6 +2,10 @@
 
 Hier liegen konkrete oder vorbereitete Archipelago-Setups.
 
+Spielespezifische Grundlagen liegen nicht hier, sondern unter:
+
+- [../docs/games/README.md](../docs/games/README.md)
+
 ## Bereits ausgearbeitet
 
 - [2 players, 2 games each, with DeathLink](./2-players-2-games-each-with-deathlink/README.md)

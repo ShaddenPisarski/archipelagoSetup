@@ -15,6 +15,7 @@ archipelagoSetup/
   README.md
   docs/
     common/
+    games/
     templates/
   scenarios/
     2-players-2-games-each-with-deathlink/
@@ -27,7 +28,8 @@ archipelagoSetup/
 
 1. [docs/common/external-tools-and-dependencies.md](./docs/common/external-tools-and-dependencies.md)
 2. [docs/common/scenario-structure-and-slot-rules.md](./docs/common/scenario-structure-and-slot-rules.md)
-3. dann das passende Szenario unter `scenarios/`
+3. [docs/games/README.md](./docs/games/README.md)
+4. dann das passende Szenario unter `scenarios/`
 
 ## Vorhandene Szenarien
 
@@ -55,7 +57,7 @@ archipelagoSetup/
 4. falls noetig:
    - `session-checklist.md`
    - `room-link-template.txt`
-   - spiel-spezifische Startvorlagen
+5. spielespezifische Dinge unter `docs/games/<spiel>/` ablegen
 
 ## Aktuelles Hauptszenario
 

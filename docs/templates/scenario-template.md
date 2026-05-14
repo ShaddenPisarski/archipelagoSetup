@@ -13,8 +13,8 @@
 
 ## Benoetigte Tools
 
-- gemeinsame Tools
-- spiel-spezifische Tools
+- gemeinsame Tools aus `docs/common/`
+- spiel-spezifische Tools aus `docs/games/<spiel>/`
 
 ## Ablauf
 
@@ -30,6 +30,11 @@
 - `README.md`
 - `session-checklist.md`
 - `room-link-template.txt`
+
+## Wichtige Regel
+
+- Spielespezifische Dinge nicht doppelt im Szenario erklaeren
+- stattdessen auf `docs/games/<spiel>/` verlinken
 
 ## Offene Punkte
 

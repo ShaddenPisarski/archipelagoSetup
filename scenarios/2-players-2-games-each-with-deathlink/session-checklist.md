@@ -2,10 +2,8 @@
 
 ## Was startet welches Spiel
 
-- `SM64` startet ueber die gebaute `sm64`-EXE
-- `SM64` braucht keinen normalen Emulator
-- `SADX` startet ueber `SAModManager.exe`
-- `SADX` nicht einfach direkt ueber Steam starten
+- `SM64`-Details: [../../docs/games/super-mario-64/README.md](../../docs/games/super-mario-64/README.md)
+- `SADX`-Details: [../../docs/games/sonic-adventure-dx/README.md](../../docs/games/sonic-adventure-dx/README.md)
 
 ## Vor dem Start
 
@@ -34,8 +32,6 @@
 ## SADX verbinden
 
 - `SAModManager.exe` oeffnen
-- `SADX_Archipelago` aktiv
-- Mod ganz unten in der Liste
 - `Server IP` gesetzt
 - `PlayerName` exakt gesetzt
 - `Password` nur falls noetig
@@ -61,4 +57,4 @@
 - Slot-Name exakt pruefen
 - Host und Port exakt pruefen
 - falschen Room ausschliessen
-- bei SADX unnoetige Mods deaktivieren
+- spielespezifische Doku pruefen
