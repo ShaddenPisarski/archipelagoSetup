@@ -11,6 +11,8 @@ Dieses Szenario ist fuer euer aktuelles Setup gedacht:
 
 ## Zuerst lesen
 
+### Noob-Weg zuerst
+
 Wenn du das Setup wirklich Schritt fuer Schritt abarbeiten willst, lies zuerst:
 
 - [BEGINNER-GUIDE.md](./BEGINNER-GUIDE.md)
@@ -18,6 +20,12 @@ Wenn du das Setup wirklich Schritt fuer Schritt abarbeiten willst, lies zuerst:
 Danach, waehrend ihr spielt oder abhakt:
 
 - [session-checklist.md](./session-checklist.md)
+
+### Zweiter Weg fuer Fortgeschrittene
+
+Wenn du die gleiche Sache kuerzer und modularer lesen willst:
+
+- [ADVANCED-GUIDE.md](./ADVANCED-GUIDE.md)
 
 ## Weitere Dateien in diesem Ordner
 

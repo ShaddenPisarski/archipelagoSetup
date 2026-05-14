@@ -1,6 +1,12 @@
-# Einfache Schritt-fuer-Schritt-Anleitung fuer 2 Spieler mit SM64 und SADX
+# Noob-Weg: Windows-Schritt-fuer-Schritt-Anleitung fuer 2 Spieler mit SM64 und SADX
 
 Wenn du einfach nur spielen willst, lies **nur diese Datei** von oben nach unten.
+
+Diese Anleitung ist bewusst fuer Windows und fuer Leute ohne Technik-Wissen geschrieben:
+
+- kein CLI noetig
+- kein Terminal noetig
+- nur klicken, entpacken, kopieren und starten
 
 Ziel:
 
@@ -101,6 +107,7 @@ Ganz wichtig:
 
 - spaeter startest du **diese gebaute EXE**
 - du brauchst keinen Emulator
+- du brauchst kein Terminal zum normalen Spielen
 
 ## SADX einrichten
 
@@ -108,7 +115,7 @@ Auf **jedem** PC:
 
 1. Installiere `Sonic Adventure DX` ueber Steam.
 2. Installiere `SA Mod Manager`.
-3. Oeffne den SADX-Spielordner.
+3. Oeffne den SADX-Spielordner im Windows-Explorer.
 4. Suche dort den `mods`-Ordner.
 5. Falls kein `mods`-Ordner da ist, erstelle ihn.
 6. Entpacke den `SADX_Archipelago` Mod.
