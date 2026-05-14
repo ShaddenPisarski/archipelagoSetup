@@ -49,6 +49,20 @@ Bezugsweg:
 8. `Steam Achievements Mod` deaktivieren
 9. `Fixes, Adds, and Beta Restores` deaktivieren
 
+## Wo kommt was hin
+
+- `Sonic Adventure DX` wird normal ueber Steam installiert
+- `SA Mod Manager` wird installiert und stellt `SAModManager.exe` bereit
+- der Ordner `SADX_Archipelago` muss in den `mods`-Ordner von `Sonic Adventure DX`
+
+Das Ziel sieht so aus:
+
+```text
+Sonic Adventure DX/
+  mods/
+    SADX_Archipelago/
+```
+
 ## Woran ihr erkennt, dass SADX bereit ist
 
 - `SADX_Archipelago` ist aktiv
@@ -56,6 +70,11 @@ Bezugsweg:
 - `SADX` startet ueber `Save & Play`
 
 ## Spielstart fuer einen Room
+
+Datei, die du am Ende startest:
+
+- `SAModManager.exe`
+- nicht einfach direkt Steam
 
 1. `SAModManager.exe` oeffnen
 2. `SADX_Archipelago` auswaehlen

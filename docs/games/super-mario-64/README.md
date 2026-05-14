@@ -48,6 +48,14 @@ Wichtig:
 5. den Schritten im Launcher folgen
 6. `Compile default SM64AP build` ausfuehren
 
+## Wo kommt was hin
+
+- `MSYS2` wird normal installiert
+- wichtig ist nur:
+  - kein Installationspfad mit Leerzeichen
+- der `SM64AP-Launcher` baut am Ende eine `sm64`-EXE
+- genau diese EXE ist spaeter die Datei, die du startest
+
 ## Woran ihr erkennt, dass SM64 bereit ist
 
 - die gebaute `sm64`-EXE existiert
@@ -55,6 +63,12 @@ Wichtig:
 - ihr kennt den Pfad zur EXE
 
 ## Spielstart fuer einen Room
+
+Datei, die du am Ende startest:
+
+- die gebaute `sm64`-EXE
+- nicht der ROM
+- nicht ein Emulator
 
 ```bat
 sm64.us.f3dex2e.exe --sm64ap_name You_SM64 --sm64ap_ip multiworld.gg:54321
