@@ -268,7 +268,26 @@ Das ist eure Merkhilfe fuer spaeter.
 
 Wenn auf einem PC beide Spiele gleichzeitig offen sind, hoerst du sonst oft **beide Spiele gleichzeitig**.
 
-Der einfachste Windows-Weg ist:
+### Besserer Weg: automatisch stummschalten
+
+Windows selbst hat dafuer keinen wirklich guten Standardweg.
+
+Wenn du es automatisch willst, nutze am besten ein extra Tool, das Hintergrund-Programme automatisch stummschaltet und das aktive Fenster wieder laut macht.
+
+Fuer diesen Zweck gibt es zum Beispiel:
+
+- `Background Muter`
+
+Wenn du so ein Tool verwendest, ist das Ziel:
+
+- das gerade aktive Spiel ist hoerbar
+- das andere, gerade nicht aktive Spiel ist automatisch stumm
+
+Dann musst du beim Wechseln zwischen `SM64` und `SADX` nicht jedes Mal selbst nachregeln.
+
+### Fallback: Windows-Lautstaerkemixer
+
+Wenn du kein Extra-Tool willst, nimm den Windows-Weg:
 
 1. Starte beide Spiele.
 2. Mache einen Rechtsklick auf das Lautsprecher-Symbol unten rechts in Windows.
@@ -387,7 +406,12 @@ Warum erst am Ende:
 
 ## Waehren des Spielens zwischen den Sounds wechseln
 
-Wenn du spaeter von `SM64` zu `SADX` wechselst oder andersherum:
+Wenn du ein Auto-Mute-Tool benutzt:
+
+- einfach ins andere Spiel wechseln
+- das bisherige Spiel sollte automatisch stumm sein
+
+Wenn du den Windows-Lautstaerkemixer benutzt:
 
 1. Oeffne wieder den Windows-`Lautstaerkemixer`.
 2. Schalte das Spiel stumm, das du jetzt **nicht** aktiv spielst.

@@ -31,7 +31,8 @@
 
 ## Ton einstellen
 
-- Windows-`Lautstaerkemixer` oeffnen
+- optional: Auto-Mute-Tool fuer Hintergrundspiele verwenden
+- sonst Windows-`Lautstaerkemixer` oeffnen
 - das gerade nicht gespielte Spiel stummschalten
 - nur das aktiv gespielte Spiel laut lassen
 
