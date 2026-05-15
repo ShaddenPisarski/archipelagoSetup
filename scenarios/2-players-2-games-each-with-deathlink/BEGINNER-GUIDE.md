@@ -57,6 +57,7 @@ Extra-Tools, die ihr zusaetzlich braucht:
    - `https://github.com/N00byKing/SM64AP-Launcher/releases`
 2. Lade `MSYS2` herunter von:
    - `https://www.msys2.org/docs/installer/`
+   - Eher diesen Link nutzen: https://github.com/msys2/msys2-installer/releases/tag/nightly-x86_64
 
 ### Fuer SADX
 
