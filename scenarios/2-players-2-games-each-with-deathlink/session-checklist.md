@@ -29,6 +29,12 @@
 - Port
 - Passwort nur falls gesetzt
 
+## Ton einstellen
+
+- Windows-`Lautstaerkemixer` oeffnen
+- das gerade nicht gespielte Spiel stummschalten
+- nur das aktiv gespielte Spiel laut lassen
+
 ## SADX verbinden
 
 - `SAModManager.exe` oeffnen
@@ -40,8 +46,9 @@
 ## SM64 verbinden
 
 - richtige EXE gestartet
-- `--sm64ap_name SLOT_NAME`
-- `--sm64ap_ip HOST:PORT`
+- `launch-sm64-template.bat` liegt im gleichen Ordner wie die gebaute EXE
+- `SLOT_NAME` korrekt eingetragen
+- `HOST_AND_PORT` korrekt eingetragen
 - Passwort nur falls noetig
 
 ## Erster Test

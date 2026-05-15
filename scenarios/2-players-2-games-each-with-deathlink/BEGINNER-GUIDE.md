@@ -264,6 +264,34 @@ Oeffne diese Datei und trage ein:
 
 Das ist eure Merkhilfe fuer spaeter.
 
+## Ton richtig einstellen
+
+Wenn auf einem PC beide Spiele gleichzeitig offen sind, hoerst du sonst oft **beide Spiele gleichzeitig**.
+
+Der einfachste Windows-Weg ist:
+
+1. Starte beide Spiele.
+2. Mache einen Rechtsklick auf das Lautsprecher-Symbol unten rechts in Windows.
+3. Oeffne den `Lautstaerkemixer` oder `Volume Mixer`.
+4. Suche dort die beiden laufenden Spiele.
+5. Stelle das Spiel, das du **gerade nicht spielst**, auf `0` oder `Stumm`.
+6. Lass nur das Spiel laut, das du **gerade aktiv spielst**.
+
+Beispiel:
+
+- du spielst gerade `SM64`:
+  - `SM64` laut lassen
+  - `SADX` stummschalten
+- du spielst gerade `SADX`:
+  - `SADX` laut lassen
+  - `SM64` stummschalten
+
+Wichtig:
+
+- du musst die Spiele **nicht schliessen**
+- es reicht, in Windows nur das gerade unbenutzte Spiel stummzuschalten
+- wenn du spaeter das andere Spiel spielst, einfach im Lautstaerkemixer tauschen
+
 ## SADX verbinden
 
 Auf dem PC des jeweiligen Spielers:
@@ -356,6 +384,16 @@ Macht den ersten Test klein und simpel:
 Warum erst am Ende:
 
 - `Death Link` kann andere verbundene Slots mitreissen
+
+## Waehren des Spielens zwischen den Sounds wechseln
+
+Wenn du spaeter von `SM64` zu `SADX` wechselst oder andersherum:
+
+1. Oeffne wieder den Windows-`Lautstaerkemixer`.
+2. Schalte das Spiel stumm, das du jetzt **nicht** aktiv spielst.
+3. Mache das Spiel laut, das du **jetzt** spielst.
+
+So hoerst du immer nur ein Spiel gleichzeitig.
 
 ## Wenn etwas nicht klappt
 
