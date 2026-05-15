@@ -63,6 +63,7 @@ Extra-Tools, die ihr zusaetzlich braucht:
 
 1. Lade `SA Mod Manager` herunter von:
    - `https://gamebanana.com/tools/15436`
+   - Nutze dieses eher: https://gitlab.com/PiKeyAr/sadx-mod-installer/-/wikis/Download
 2. Oeffne die `Sonic Adventure DX` Setup-Seite:
    - `https://multiworld.gg/tutorial/Sonic%20Adventure%20DX/setup_en`
 3. Lade von dort den `SADX_Archipelago` Mod herunter.
