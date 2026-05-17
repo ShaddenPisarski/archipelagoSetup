@@ -20,6 +20,11 @@ Nicht der Standardweg fuer diese Repo-Doku:
 
 - `mGBA`
 
+Das heisst fuer euren ersten Run ganz konkret:
+
+- `BizHawk` herunterladen
+- `mGBA` ignorieren
+
 ## Empfohlene Tools
 
 ### MultiworldGG
@@ -58,7 +63,8 @@ Dabei gilt:
 
 - die normale `Pokemon Crystal`-Datei liegt in `vanilla-rom/`
 - die gepatchte `.gbc`-Datei liegt spaeter in `patched-rom/`
-- `BizHawk` oder `mGBA` liegt in `emulator/`
+- `BizHawk` liegt in `emulator/`
+- `mGBA` ist fuer diese Repo-Doku nicht noetig
 
 ## Was ihr am Ende startet
 
@@ -73,6 +79,14 @@ Der eigentliche Spielstand laeuft dann mit:
 - offenem `BizHawk Client`
 - offenem `Lua Console`-Fenster
 
+## Was genau ihr nicht braucht
+
+Fuer euren ersten Repo-Standardweg braucht ihr **nicht**:
+
+- `mGBA`
+- den `mGBA`-Connector
+- einen zweiten Emulator parallel zu `BizHawk`
+
 ## Reihenfolge fuer Einsteiger
 
 1. `MultiworldGG` installieren
@@ -84,6 +98,38 @@ Der eigentliche Spielstand laeuft dann mit:
 7. die erzeugte gepatchte `.gbc` starten
 8. `BizHawk Client` verbinden
 9. `Lua Console` offen lassen
+
+## Patch-Datei und Start genauer erklaert
+
+Nach der Seed-Generierung bekommt ihr fuer `Pokemon Crystal` eine Datei mit:
+
+- `.apcrystal`
+
+Diese Datei ist **noch nicht** das Spiel selbst.
+
+Sie ist nur die Patch-Datei fuer euren Slot.
+
+Der normale Ablauf ist:
+
+1. `.apcrystal` in `MultiworldGGLauncher.exe` oeffnen
+2. beim ersten Mal die normale `Pokemon Crystal`-ROM angeben
+3. beim ersten Mal `EmuHawk.exe` angeben
+4. dadurch wird eine gepatchte `.gbc` erzeugt
+5. diese gepatchte `.gbc` in `BizHawk` starten
+6. `Lua Console` oeffnen
+7. `connector_bizhawk_generic.lua` laden
+
+Wenn `MultiworldGG` nach `EmuHawk.exe` fragt, sucht ihr hier:
+
+```text
+...\MWGG-Pokemon-Crystal\emulator\EmuHawk.exe
+```
+
+Wenn `MultiworldGG` nach eurer normalen ROM fragt, sucht ihr hier:
+
+```text
+...\MWGG-Pokemon-Crystal\vanilla-rom\
+```
 
 ## Wichtige Trennung
 
@@ -113,6 +159,12 @@ Wenn ihr spaeter neu verbindet:
 - `BizHawk Client` starten
 - `Lua Console` oeffnen
 - Script erneut laden
+
+Woran ihr erkennt, dass die Verbindung steht:
+
+- der `BizHawk Client` meldet, dass `Pokemon Crystal` erkannt wurde
+- der Emulator laeuft mit der gepatchten Datei
+- senden und empfangen funktioniert
 
 ## DeathLink fuer Crystal
 

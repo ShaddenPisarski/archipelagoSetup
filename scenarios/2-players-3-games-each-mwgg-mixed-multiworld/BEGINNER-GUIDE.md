@@ -50,6 +50,10 @@ Zusaetzliche Tools:
 1. Oeffne die Setup-Seite:
    - `https://multiworld.gg/tutorial/Pokemon%20Crystal/setup_en`
 2. Lade `BizHawk` herunter.
+3. Ignoriere `mGBA` fuer euren ersten Run.
+4. Fuer diese Repo-Doku ist der Standard:
+   - `BizHawk ja`
+   - `mGBA nein`
 
 ### Fuer Dark Souls Remastered
 
@@ -98,23 +102,47 @@ Diese Namen spaeter **exakt** so uebernehmen.
 Auf jedem PC:
 
 1. Installiere `MultiworldGG`.
-2. Entpacke `BizHawk` in einen einfachen Ordner, zum Beispiel:
+2. Erstelle auf dem Desktop diesen Ordner:
+
+```text
+Desktop\MWGG-Pokemon-Crystal
+```
+
+3. Erstelle darin diese Unterordner:
+
+```text
+MWGG-Pokemon-Crystal
+  emulator
+  vanilla-rom
+  patched-rom
+```
+
+4. Entpacke `BizHawk` komplett nach:
 
 ```text
 Desktop\MWGG-Pokemon-Crystal\emulator
 ```
 
-3. Lege eure normale `Pokemon Crystal`-Datei bereit.
-4. Starte `EmuHawk.exe` einmal.
-5. Stelle sicher:
+5. Lege eure normale `Pokemon Crystal`-Datei nach:
+
+```text
+Desktop\MWGG-Pokemon-Crystal\vanilla-rom
+```
+
+6. Oeffne im `emulator`-Ordner:
+   - `EmuHawk.exe`
+7. Stelle sicher:
    - `Run in background` ist an
    - `AutoSaveRAM` ist an
-6. Schliesse `BizHawk` wieder.
+8. Wenn du eine aeltere `BizHawk`-Version benutzt und die Seite es verlangt:
+   - stelle den `Lua`-Core wie im offiziellen Guide um
+9. Schliesse `BizHawk` wieder.
 
 Woran du erkennst, dass dieser Teil bereit ist:
 
 - `EmuHawk.exe` startet
 - ihr wisst, wo eure normale `Pokemon Crystal`-Datei liegt
+- `mGBA` wurde **nicht** eingerichtet, weil ihr es fuer diesen Guide nicht braucht
 
 ## Dark Souls Remastered lokal vorbereiten
 
@@ -215,25 +243,84 @@ Wenn nicht:
 
 Auf jedem PC fuer den passenden `Pokemon Crystal`-Slot:
 
-1. Oeffne `MultiworldGGLauncher.exe`.
-2. Klicke links auf `Open Patch`.
-3. Waehle die passende `.apcrystal`-Datei fuer deinen Slot aus dem erzeugten Output.
-4. Wenn du dazu aufgefordert wirst:
-   - gib die normale `Pokemon Crystal`-Datei an
-5. Wenn du dazu aufgefordert wirst:
-   - gib `EmuHawk.exe` an
-6. Dadurch wird eine gepatchte `.gbc`-Datei erzeugt.
-7. Starte diese gepatchte Datei mit `BizHawk`.
-8. Oeffne in `BizHawk`:
-   - `Tools -> Lua Console`
-9. Lade dort das Script:
-   - `data/lua/connector_bizhawk_generic.lua` aus deinem `MultiworldGG`-Ordner
+### Vorher wichtig
+
+Fuer diesen Guide gilt:
+
+- ihr benutzt `BizHawk`
+- ihr braucht `mGBA` **nicht**
+- ihr braucht fuer `Pokemon Crystal`:
+  - die normale ROM in `vanilla-rom`
+  - die `.apcrystal`-Datei aus dem generierten `MWGG`-Output
+  - `EmuHawk.exe` aus eurem `BizHawk`-Ordner
+
+### Schritt fuer Schritt
+
+1. Suche im heruntergeladenen `MWGG`-Output die Datei fuer deinen `Pokemon Crystal`-Slot:
+   - sie endet auf `.apcrystal`
+2. Kopiere diese `.apcrystal`-Datei nach:
+
+```text
+Desktop\MWGG-Pokemon-Crystal\patched-rom
+```
+
+3. Oeffne `MultiworldGGLauncher.exe`.
+4. Klicke links auf `Open Patch`.
+5. Waehle die `.apcrystal`-Datei aus dem Ordner `patched-rom`.
+6. Beim **ersten** Patch-Vorgang fragt dich `MultiworldGG` nach der normalen `Pokemon Crystal`-Datei.
+7. Waehle dann die Datei aus:
+
+```text
+Desktop\MWGG-Pokemon-Crystal\vanilla-rom
+```
+
+8. Beim **ersten** Start mit `BizHawk` fragt dich `MultiworldGG` auch nach:
+   - `EmuHawk.exe`
+9. Waehle dann diese Datei aus:
+
+```text
+Desktop\MWGG-Pokemon-Crystal\emulator\EmuHawk.exe
+```
+
+10. Jetzt wird im gleichen Bereich wie die Patch-Datei eine gepatchte `.gbc` erzeugt.
+11. Diese gepatchte `.gbc` ist die Datei, die du spaeter wirklich spielst.
+12. Wenn `BizHawk` nicht automatisch startet:
+    - starte `EmuHawk.exe` selbst
+    - oeffne dann in `BizHawk` die gepatchte `.gbc`
+13. In `BizHawk` oeffne:
+    - `Tools -> Lua Console`
+14. In der `Lua Console` klicke:
+    - `Script -> Open Script`
+15. Waehle dann in deinem `MultiworldGG`-Installationsordner diese Datei:
+    - `data/lua/connector_bizhawk_generic.lua`
+16. Lass das `Lua Console`-Fenster offen.
+17. Pruefe, ob der `BizHawk Client` von `MultiworldGG` offen ist.
+18. Warte kurz, bis Emulator und Client sich erkennen.
 
 Wichtig:
 
 - das `Lua Console`-Fenster muss offen bleiben
 - starte nicht die normale ROM
 - starte die gepatchte Datei fuer **deinen** Slot
+- wenn du `mGBA` nirgends installiert hast, ist das fuer diesen Guide korrekt
+
+Woran du erkennst, dass es geklappt hat:
+
+- die gepatchte `.gbc` existiert
+- `BizHawk` laeuft mit dieser gepatchten Datei
+- der `BizHawk Client` erkennt `Pokemon Crystal`
+- Items koennen gesendet und empfangen werden
+
+### Wenn du spaeter neu verbinden musst
+
+Wenn Emulator oder Client geschlossen wurden, mach es wieder genau so:
+
+1. `EmuHawk.exe` starten
+2. die gepatchte `.gbc` laden
+3. `BizHawk Client` in `MultiworldGG` oeffnen
+4. `Tools -> Lua Console` oeffnen
+5. `connector_bizhawk_generic.lua` erneut laden
+6. warten, bis die Verbindung wieder steht
 
 ## Dark Souls Remastered verbinden
 
