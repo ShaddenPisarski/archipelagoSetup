@@ -1,69 +1,91 @@
 # Dark Souls Remastered
 
-Diese Datei enthaelt alles, was fuer `Dark Souls Remastered` in eurem Co-op-Track grundsaetzlich gleich bleibt.
+Diese Datei enthaelt alles, was fuer `Dark Souls Remastered` in eurem `MultiworldGG`-Track grundsaetzlich gleich bleibt.
 
 ## Was hier der Kern des Setups ist
 
-Ihr verwendet fuer diesen Track:
+Ihr verwendet hier:
 
 - die normale Steam-Version von `Dark Souls Remastered`
-- den `Seamless Co-op`-Mod
-- einen gemeinsamen Passwort-Eintrag
-- den Mod-Launcher statt des normalen Starts
+- den `DSAP`-Client fuer `Dark Souls Remastered`
+- einen `MWGG`-Room
+- einen eigenen Slotnamen
 
-## Externes Tool
+Das ist **kein** normaler Co-op-Mod-Guide mehr.
 
-### Seamless Co-op
+## Empfohlene Tools
+
+### MultiworldGG
 
 Download:
 
-- <https://www.nexusmods.com/darksoulsremastered/mods/899>
+- <https://multiworld.gg/downloads/>
+
+### DSAP - Dark Souls Remastered AP Client
+
+Bezugsweg:
+
+- ueber die offizielle `Dark Souls Remastered`-Setup-Seite
+  - <https://multiworld.gg/tutorial/Dark%20Souls%20Remastered/setup_en>
 
 ## Wo kommt was hin
 
 Steam-Spielordner:
 
 ```text
-C:\Program Files (x86)\Steam\steamapps\common\DARK SOULS REMASTERED\Game
+C:\Program Files (x86)\Steam\steamapps\common\DARK SOULS REMASTERED
 ```
 
-Der Mod wird direkt in diesen `Game`-Ordner entpackt oder hineinkopiert.
+Der `DSAP`-Client soll laut Guide **nicht** in `Program Files` oder direkt in den Spielordner entpackt werden.
 
-Die wichtige Datei fuer das Passwort liegt danach in:
+Empfohlene einfache Struktur:
 
 ```text
-SeamlessCoop\ds1sc_settings.ini
+Desktop/
+  MWGG-DSR/
+    DSAP/
 ```
-
-## Was ihr bearbeiten muesst
-
-1. `SeamlessCoop\ds1sc_settings.ini` mit dem Windows-Editor oeffnen
-2. gemeinsames Session-Passwort eintragen
-3. speichern
 
 ## Was ihr am Ende startet
 
-Fuer den Co-op-Run:
+Fuer den `MWGG`-Run braucht ihr:
 
-- `ds1sc_launcher.exe`
+- `Dark Souls Remastered` selbst
+- `DSAP.Desktop.exe`
 
-Fuer normales Vanilla-Spiel:
+Das Spiel und der `DSAP`-Client muessen waehrend des Spielens zusammen laufen.
 
-- wie gewohnt ueber Steam oder den normalen Spielstart
+## Reihenfolge fuer Einsteiger
 
-## Wichtige Trennung
+1. `Dark Souls Remastered` ueber Steam installieren
+2. `DSAP` herunterladen und entpacken
+3. `MWGG`-Seed und Room bereit haben
+4. Spiel starten
+5. im Spiel auf `Offline` stellen
+6. `DSAP.Desktop.exe` starten
+7. dort `Host`, `Slot` und optional `Password` eintragen
+8. `Connect` klicken
 
-Dieser Track ist absichtlich als getrennter Mod-Weg gedacht.
+## Was nicht mit Vanilla gemischt werden soll
 
-Darum gilt:
+Der offizielle Guide warnt hier deutlich.
 
-- fuer den Co-op-Run immer den Mod-Launcher benutzen
-- fuer normales Solo-Spiel nicht den Mod-Launcher benutzen
-- nicht modded und vanilla durcheinander starten
-- beide Spieler muessen dieselbe Spielversion und dieselbe Mod-Version haben
+Darum gilt fuer diese Repo-Doku:
 
-## Woran ihr erkennt, dass es passt
+- `DSR` fuer `MWGG` immer offline im Spiel starten
+- niemals mit diesem Mod oder dessen Saves ins normale `FromSoft`-Online gehen
+- `AP`-Saves und normale Saves sauber trennen
 
-- beide Spieler kommen mit demselben Passwort in denselben Run
-- beide Spieler starten ueber `ds1sc_launcher.exe`
-- keiner startet den Run aus Versehen ueber den normalen Steam-Start
+Praktischer Windows-Pfad fuer Saves laut Guide:
+
+```text
+C:\Users\<user>\Documents\nbgi\DARK SOULS REMASTERED\88627662\DRAKS0005.sl2
+```
+
+## DeathLink
+
+Auf der aktuellen `MWGG`-Options-Seite ist fuer `Dark Souls Remastered`:
+
+- `Enable Deathlink`
+
+Darum ist `DSR` in eurem neuen Misch-Szenario ein geplanter `DeathLink`-Teil.

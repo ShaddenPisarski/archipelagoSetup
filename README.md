@@ -1,6 +1,6 @@
-# Game Setup Collection
+# Archipelago and MultiworldGG Setup Collection
 
-Dieses Repository sammelt einfache, nachvollziehbare Spiel-Setups fuer gemeinsame Runs.
+Dieses Repository sammelt einfache, nachvollziehbare Setups fuer gemeinsame `Archipelago`- und `MultiworldGG`-Runs.
 
 Der Schwerpunkt ist:
 
@@ -9,13 +9,10 @@ Der Schwerpunkt ist:
 - neue Setups spaeter leicht ergaenzen koennen
 - Noob-Wege und Referenzdateien sauber trennen
 
-Das Repository ist **nicht mehr nur Archipelago**.
-
-Aktuell gibt es drei Doku-Familien:
+Aktuell gibt es zwei Doku-Familien:
 
 - `Archipelago`
-- `Pokemon SoulLink`
-- `FromSoft Co-op`
+- `MultiworldGG`
 
 ## Struktur
 
@@ -27,11 +24,7 @@ archipelagoSetup/
     games/
     templates/
   scenarios/
-    2-players-1-game-each-pokemon-soulsilver-soullink/
-    fromsoft-safe-coop-overview/
-    2-players-1-game-each-dark-souls-remastered-coop/
-    2-players-1-game-each-dark-souls-iii-coop/
-    2-players-1-game-each-elden-ring-coop/
+    2-players-3-games-each-mwgg-mixed-multiworld/
     2-players-2-games-each-with-deathlink/
     4-players-1-game-each-no-deathlink/
     3-players-4-games-each-no-deathlink/
@@ -58,20 +51,14 @@ archipelagoSetup/
   - 4 Slots
   - optional bzw. vorbereitet fuer `Death Link`
 
-### Pokemon SoulLink
+### MultiworldGG
 
-- [2 players, 1 game each, Pokemon SoulSilver SoulLink](./scenarios/2-players-1-game-each-pokemon-soulsilver-soullink/README.md)
+- [2 players, 3 games each, MWGG mixed multiworld](./scenarios/2-players-3-games-each-mwgg-mixed-multiworld/README.md)
   - 2 Spieler
-  - `Pokemon SoulSilver`
-  - Windows-Emulator-Weg
-  - SoulLink + Nuzlocke
-
-### FromSoft Co-op
-
-- [FromSoft Safe Co-op Overview](./scenarios/fromsoft-safe-coop-overview/README.md)
-- [2 players, 1 game each, Dark Souls Remastered co-op](./scenarios/2-players-1-game-each-dark-souls-remastered-coop/README.md)
-- [2 players, 1 game each, Dark Souls III co-op](./scenarios/2-players-1-game-each-dark-souls-iii-coop/README.md)
-- [2 players, 1 game each, Elden Ring co-op](./scenarios/2-players-1-game-each-elden-ring-coop/README.md)
+  - 3 Spiele pro Spieler
+  - `Pokemon Crystal` + `Dark Souls Remastered` + `Dark Souls III`
+  - 6 Slots in einem Room
+  - echter spieluebergreifender `MWGG`-Multiworld-Run
 
 ### Vorlagen fuer weitere Archipelago-Szenarien
 
@@ -98,10 +85,6 @@ Wenn du genau euer jetziges `Archipelago`-Setup spielen willst:
 
 - [scenarios/2-players-2-games-each-with-deathlink/README.md](./scenarios/2-players-2-games-each-with-deathlink/README.md)
 
-Wenn du als Naechstes `Pokemon SoulLink` bauen willst:
+Wenn du den neuen `MWGG`-Pfad fuer euch beide bauen willst:
 
-- [scenarios/2-players-1-game-each-pokemon-soulsilver-soullink/README.md](./scenarios/2-players-1-game-each-pokemon-soulsilver-soullink/README.md)
-
-Wenn du einen `FromSoft`-Run vorbereiten willst:
-
-- [scenarios/fromsoft-safe-coop-overview/README.md](./scenarios/fromsoft-safe-coop-overview/README.md)
+- [scenarios/2-players-3-games-each-mwgg-mixed-multiworld/README.md](./scenarios/2-players-3-games-each-mwgg-mixed-multiworld/README.md)

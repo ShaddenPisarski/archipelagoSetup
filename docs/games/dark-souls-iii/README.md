@@ -1,69 +1,81 @@
 # Dark Souls III
 
-Diese Datei enthaelt alles, was fuer `Dark Souls III` in eurem Co-op-Track grundsaetzlich gleich bleibt.
+Diese Datei enthaelt alles, was fuer `Dark Souls III` in eurem `MultiworldGG`-Track grundsaetzlich gleich bleibt.
 
 ## Was hier der Kern des Setups ist
 
-Ihr verwendet fuer diesen Track:
+Ihr verwendet hier:
 
 - die normale Steam-Version von `Dark Souls III`
-- den `Seamless Co-op`-Mod
-- ein gemeinsames Session-Passwort
-- den Mod-Launcher statt des normalen Starts
+- den `Dark Souls III AP Client`
+- einmalige lokale Daten-Erzeugung ueber `DS3Randomizer.exe`
+- den Start ueber `launchmod_darksouls3.bat`
 
-## Externes Tool
+Das ist **kein** `Seamless Co-op`-Guide mehr.
 
-### Seamless Co-op
+## Empfohlene Tools
 
-Download:
+### Dark Souls III AP Client
 
-- <https://www.nexusmods.com/darksouls3/mods/1895>
+Bezugsweg:
+
+- ueber die offizielle `Dark Souls III`-Setup-Seite
+  - <https://multiworld.gg/tutorial/Dark%20Souls%20III/setup_en>
 
 ## Wo kommt was hin
 
-Steam-Spielordner:
+Laut aktuellem Guide muss der `DS3`-Client nicht in einen speziellen Ordner.
+
+Fuer Windows ist trotzdem sinnvoll:
 
 ```text
-C:\Program Files (x86)\Steam\steamapps\common\DARK SOULS III\Game
+Desktop/
+  MWGG-DS3/
 ```
 
-Der Mod wird direkt in diesen `Game`-Ordner entpackt oder hineinkopiert.
-
-Die wichtige Datei fuer das Passwort liegt danach in:
-
-```text
-SeamlessCoop\ds3sc_settings.ini
-```
-
-## Was ihr bearbeiten muesst
-
-1. `SeamlessCoop\ds3sc_settings.ini` mit dem Windows-Editor oeffnen
-2. gemeinsames Session-Passwort eintragen
-3. speichern
+Dort liegt dann der entpackte `DS3`-Client.
 
 ## Was ihr am Ende startet
 
-Fuer den Co-op-Run:
+Fuer den `MWGG`-Run braucht ihr:
 
-- `ds3sc_launcher.exe`
+- einmalig `randomizer\DS3Randomizer.exe`
+- danach fuer jeden Spielstart `launchmod_darksouls3.bat`
 
-Fuer normales Vanilla-Spiel:
+## Reihenfolge fuer Einsteiger
 
-- wie gewohnt ueber Steam oder den normalen Spielstart
+1. `Dark Souls III` ueber Steam installieren
+2. `DS3 AP Client` herunterladen und entpacken
+3. `MWGG`-Room bereit haben
+4. einmal `randomizer\DS3Randomizer.exe` starten
+5. dort `Room`, `Slot` und optional `Password` eintragen
+6. `Load` klicken und die lokalen Daten erzeugen
+7. Steam starten
+8. im Spiel `Offline` einstellen
+9. `launchmod_darksouls3.bat` starten
 
-## Wichtige Trennung
+## Was nicht mit alten Installationen gemischt werden soll
 
-Dieser Track ist absichtlich als getrennter Mod-Weg gedacht.
+Der aktuelle Guide nennt hier ein paar klare Stolperstellen.
 
-Darum gilt:
+Darum gilt fuer diese Repo-Doku:
 
-- fuer den Co-op-Run immer `ds3sc_launcher.exe` benutzen
-- fuer normales Solo-Spiel nicht `ds3sc_launcher.exe` benutzen
-- modded und vanilla nicht mischen
-- beide Spieler muessen dieselbe Spielversion und dieselbe Mod-Version haben
+- `Steam` nicht im Offline-Modus starten
+- das Spiel selbst im `DS3`-Menue trotzdem auf `Offline` stellen
+- keine alten Mod-Reste wie `dinput8.dll` im Spielordner behalten
+- keine alten downgepatchten `DS3`-Versionen verwenden
 
-## Woran ihr erkennt, dass es passt
+## Sichere Standard-Optionen fuer Einsteiger
 
-- beide Spieler tragen exakt dasselbe Passwort ein
-- beide Spieler starten ueber `ds3sc_launcher.exe`
-- beide Spieler nutzen dieselbe Mod-Version
+Fuer einen ersten gemeinsamen Run ist der sichere Standard:
+
+- `Randomize Enemies = No`
+- `Enable DLC = No`, ausser beide besitzen sicher beide DLCs und wollen sie direkt dabei haben
+
+## DeathLink
+
+Auf der aktuellen `MWGG`-Options-Seite ist fuer `Dark Souls III`:
+
+- `Death Link`
+
+Darum ist `DS3` in eurem neuen Misch-Szenario ein geplanter `DeathLink`-Teil.

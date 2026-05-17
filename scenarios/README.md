@@ -15,16 +15,9 @@ Spielespezifische Grundlagen liegen nicht hier, sondern unter:
 - [3 players, 4 games each, no DeathLink](./3-players-4-games-each-no-deathlink/README.md)
 - [3 players, 4 games each, with DeathLink](./3-players-4-games-each-with-deathlink/README.md)
 
-### Pokemon SoulLink
+### MultiworldGG
 
-- [2 players, 1 game each, Pokemon SoulSilver SoulLink](./2-players-1-game-each-pokemon-soulsilver-soullink/README.md)
-
-### FromSoft Co-op
-
-- [FromSoft Safe Co-op Overview](./fromsoft-safe-coop-overview/README.md)
-- [2 players, 1 game each, Dark Souls Remastered co-op](./2-players-1-game-each-dark-souls-remastered-coop/README.md)
-- [2 players, 1 game each, Dark Souls III co-op](./2-players-1-game-each-dark-souls-iii-coop/README.md)
-- [2 players, 1 game each, Elden Ring co-op](./2-players-1-game-each-elden-ring-coop/README.md)
+- [2 players, 3 games each, MWGG mixed multiworld](./2-players-3-games-each-mwgg-mixed-multiworld/README.md)
 
 ## Lesereihenfolge
 
@@ -41,6 +34,6 @@ Die Ordner sind absichtlich direkt lesbar:
 - Anzahl Spieler
 - Anzahl Spiele pro Spieler
 - Spiel oder Spielgruppe
-- Modus wie `DeathLink`, `SoulLink` oder `coop`
+- Modus wie `DeathLink` oder `mwgg`
 
 So bleibt sofort erkennbar, welches Setup wofuer gedacht ist.

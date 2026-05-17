@@ -1,0 +1,35 @@
+MWGG Mixed Multiworld Slot Plan
+
+Room URL:
+Host:
+Port:
+Password:
+
+Slot 1: You_PokemonCrystal
+Patch/File:
+PC:
+
+Slot 2: Brother_PokemonCrystal
+Patch/File:
+PC:
+
+Slot 3: You_DSR
+Client Folder:
+PC:
+
+Slot 4: Brother_DSR
+Client Folder:
+PC:
+
+Slot 5: You_DS3
+Client Folder:
+PC:
+
+Slot 6: Brother_DS3
+Client Folder:
+PC:
+
+DeathLink Plan:
+- DSR: Yes
+- DS3: Yes
+- Pokemon Crystal: optional / not promised in this repo
