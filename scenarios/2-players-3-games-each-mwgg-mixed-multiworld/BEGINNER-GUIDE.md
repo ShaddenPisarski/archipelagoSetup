@@ -256,7 +256,7 @@ Fuer diesen Guide gilt:
 
 ### Schritt fuer Schritt
 
-1. Suche im heruntergeladenen `MWGG`-Output die Datei fuer deinen `Pokemon Crystal`-Slot:
+1. Suche im heruntergeladenen `MWGG`-Output (Im erstellten Raum vom Multiworld auf "Download Patch file" gehen) die Datei fuer deinen `Pokemon Crystal`-Slot:
    - sie endet auf `.apcrystal`
 2. Kopiere diese `.apcrystal`-Datei nach:
 
@@ -265,7 +265,7 @@ Desktop\MWGG-Pokemon-Crystal\patched-rom
 ```
 
 3. Oeffne `MultiworldGGLauncher.exe`.
-4. Klicke links auf `Open Patch`.
+4. Klicke links auf `Open Patch`. (Im aktuellen Client einfach die Datei in das Fenster ziehen)
 5. Waehle die `.apcrystal`-Datei aus dem Ordner `patched-rom`.
 6. Beim **ersten** Patch-Vorgang fragt dich `MultiworldGG` nach der normalen `Pokemon Crystal`-Datei.
 7. Waehle dann die Datei aus:
