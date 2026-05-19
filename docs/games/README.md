@@ -24,3 +24,5 @@ Szenarien unter `scenarios/` sollen diese Dateien nur noch verlinken und nicht d
 - [Pokemon Crystal](./pokemon-crystal/README.md)
 - [Dark Souls Remastered](./dark-souls-remastered/README.md)
 - [Dark Souls III](./dark-souls-iii/README.md)
+- [Super Metroid / ALttP Crossover](./super-metroid-alttp-crossover/README.md)
+- [Super Mario Odyssey](./super-mario-odyssey/README.md)

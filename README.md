@@ -25,6 +25,8 @@ archipelagoSetup/
     templates/
   scenarios/
     2-players-3-games-each-mwgg-mixed-multiworld/
+    2-players-1-game-each-smz3-classic-challenge/
+    2-players-1-game-each-super-mario-odyssey-deathlink/
     2-players-2-games-each-with-deathlink/
     4-players-1-game-each-no-deathlink/
     3-players-4-games-each-no-deathlink/
@@ -59,6 +61,16 @@ archipelagoSetup/
   - `Pokemon Crystal` + `Dark Souls Remastered` + `Dark Souls III`
   - 6 Slots in einem Room
   - echter spieluebergreifender `MWGG`-Multiworld-Run
+- [2 players, 1 game each, SMZ3 classic challenge](./scenarios/2-players-1-game-each-smz3-classic-challenge/README.md)
+  - 2 Spieler
+  - 1 Spiel pro Spieler
+  - beide spielen `SMZ3`
+  - klassischer `SMZ3`-Challenge-Pfad
+- [2 players, 1 game each, Super Mario Odyssey DeathLink](./scenarios/2-players-1-game-each-super-mario-odyssey-deathlink/README.md)
+  - 2 Spieler
+  - 1 Spiel pro Spieler
+  - beide spielen `Super Mario Odyssey`
+  - `DeathLink` als empfohlener Challenge-Modus
 
 ### Vorlagen fuer weitere Archipelago-Szenarien
 
@@ -88,3 +100,11 @@ Wenn du genau euer jetziges `Archipelago`-Setup spielen willst:
 Wenn du den neuen `MWGG`-Pfad fuer euch beide bauen willst:
 
 - [scenarios/2-players-3-games-each-mwgg-mixed-multiworld/README.md](./scenarios/2-players-3-games-each-mwgg-mixed-multiworld/README.md)
+
+Wenn du die neue `SMZ3`-Challenge bauen willst:
+
+- [scenarios/2-players-1-game-each-smz3-classic-challenge/README.md](./scenarios/2-players-1-game-each-smz3-classic-challenge/README.md)
+
+Wenn du `Super Mario Odyssey` als eigenen `MWGG`-Challenge-Run mit `DeathLink` bauen willst:
+
+- [scenarios/2-players-1-game-each-super-mario-odyssey-deathlink/README.md](./scenarios/2-players-1-game-each-super-mario-odyssey-deathlink/README.md)
