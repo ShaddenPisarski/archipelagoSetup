@@ -27,6 +27,26 @@ In beiden Faellen braucht ihr:
 - einen `MWGG`-Room
 - eure Slot-Daten
 
+## Spielversion und Region
+
+Hier ist ein wichtiger Punkt fuer die Repo-Doku:
+
+Die aktuelle `MWGG`-Setup-Seite nennt fuer `Super Mario Odyssey` **keine** explizite Regions- oder Versionsangabe wie:
+
+- `USA`
+- `EU`
+- `JP`
+- `v1.0.0`
+- `v1.3.0`
+
+Darum gilt in dieser Repo-Doku bewusst diese ehrliche Formulierung:
+
+- die derzeitige Setup-Seite legt keine exakte Region oder Update-Version fest
+- benutzt den aktuellen Spielstand, der zu eurer verwendeten `SMO_Archipelago`-Release passt
+- wenn ihr eine neue Mod-Release benutzt, testet immer zuerst auf einem kurzen Seed
+
+Diese Repo-Doku soll hier **keine** falsche Genauigkeit erfinden.
+
 ## Vergleich: Switch vs Emulator
 
 ### Switch
@@ -41,6 +61,67 @@ Nachteile:
 
 - braucht eine passende modfaehige Switch-Umgebung
 - fuer absolute Einsteiger oft mehr Hardware-Huerden
+
+## Switch modfaehig machen: Was das fuer euch bedeutet
+
+Diese Repo-Doku dokumentiert den `SMO`-Pfad auf einer bereits geeigneten `Switch`, aber sie soll euch auch die Vorentscheidung abnehmen:
+
+### 1. Erst pruefen, welche Switch ihr habt
+
+Der aktuelle `NH Switch Guide` trennt klar:
+
+- originale `Switch`-Modelle koennen je nach Seriennummer ueber `RCM` angreifbar sein
+- `HAC-001(-01)` / `V2` / `Mariko`
+- `Switch Lite`
+- `OLED`
+
+sind ohne Modchip nicht auf dem einfachen Software-Weg nutzbar.
+
+Konkret sagt der Guide:
+
+- `Lite` und `HAC-001(-01)` / `V2` nutzen `Mariko`
+- diese koennen derzeit nicht ohne Modchip gehackt werden
+
+Hilfreiche Startseiten:
+
+- `Getting Started`: <https://switch.hacks.guide/user_guide/getting_started>
+- `Modchip Introduction`: <https://switch.hacks.guide/user_guide/getting_started#continue-with-the-right-path-for-your-switch>
+
+### 2. Was das praktisch heisst
+
+Wenn ihr eine:
+
+- alte ungepatchte `V1`-Switch habt
+  - dann ist der `RCM`-Pfad der relevante Weg
+- gepatchte `V1`
+- `V2` / `Mariko`
+- `Lite`
+- `OLED`
+
+habt, dann braucht ihr fuer einen echten CFW-Weg in der Regel einen Modchip.
+
+### 3. Was diese Repo-Doku bewusst nicht im Detail abdeckt
+
+Was hier **nicht** voll Schritt fuer Schritt auseinandergenommen wird:
+
+- Modchip-Einbau mit Mikrolöten
+- vollstaendige CFW-Ersteinrichtung jeder einzelnen Switch-Revision
+
+Warum:
+
+- das haengt stark von eurem exakten Switch-Modell ab
+- der aktuelle `NH Switch Guide` trennt diese Pfade bereits sauber
+
+### 4. Was ihr stattdessen tun sollt
+
+1. Im `System -> Serial Information` oder auf der Unterseite die Seriennummer pruefen.
+2. Im `NH Switch Guide` den passenden Pfad bestimmen.
+3. Erst wenn klar ist, dass eure Konsole wirklich modfaehig vorbereitet ist, mit dem `SMO`-Mod weitermachen.
+
+Fuer diese Repo-Doku ist das das sichere Entscheidungsmodell:
+
+- `ungepatchte V1` -> Software-/`RCM`-Pfad moeglich
+- `V2` / `Mariko` / `Lite` / `OLED` -> Modchip-Pfad noetig
 
 ### Emulator
 

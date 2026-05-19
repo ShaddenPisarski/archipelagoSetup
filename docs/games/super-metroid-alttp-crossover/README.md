@@ -29,6 +29,22 @@ Fuer euren Repo-Standardweg heisst das:
 
 Laut aktuellem `MWGG`-Guide ist `SNI` bereits in `MultiworldGG` enthalten.
 
+## Genaue ROM-Versionen
+
+Fuer diese Welt sind die genauen Basis-ROMs wichtig.
+
+Der aktuelle `SMZ3`-Guide nennt als typische Dateinamen:
+
+- `Super Metroid (Japan, USA).sfc`
+- `Zelda no Densetsu - Kamigami no Triforce (Japan).sfc`
+
+Das heisst fuer eure Doku ganz konkret:
+
+- `Super Metroid`: `Japan, USA`
+- `A Link to the Past`: japanische `v1.0`
+
+Wenn ihr andere Regionen oder andere Revisionen benutzt, solltet ihr in dieser Repo-Doku **nicht** davon ausgehen, dass es einfach trotzdem passt.
+
 ## Empfohlener Windows-Weg
 
 Fuer euren ersten Repo-Standardweg:
@@ -41,6 +57,26 @@ Warum:
 - der offizielle Guide beschreibt `BizHawk` klar
 - der `BSNES`-Core ist dort konkret dokumentiert
 - der `Connector.lua`-Schritt ist fuer Windows gut nachvollziehbar
+
+## SNI-kompatible SNES-Emulatoren
+
+Der zugrunde liegende offizielle Guide nennt als SNI-kompatible Software unter anderem:
+
+- `snes9x-nwa`
+- `snes9x-rr`
+- `BSNES-plus`
+- `BizHawk`
+- `RetroArch 1.10.3 oder neuer`
+
+Fuer diese Repo-Doku bleibt die klare Empfehlung trotzdem:
+
+- `BizHawk`
+
+Warum:
+
+- fuer Windows am einfachsten sauber Schritt fuer Schritt erklaerbar
+- `BSNES`-Core ist direkt im Guide beschrieben
+- `Connector.lua`-Weg ist klar
 
 ## Was wohin kommt
 
@@ -59,6 +95,11 @@ Dabei gilt:
 - `emulator/` = `BizHawk`
 - `roms/` = eure beiden Basis-ROMs
 - `patches/` = eure `.apsmz3`-Dateien und die erzeugten gepatchten ROMs
+
+Die ROM-Dateien in `roms/` sollten fuer diesen Guide also genau diese Basis sein:
+
+- `Super Metroid (Japan, USA).sfc`
+- `Zelda no Densetsu - Kamigami no Triforce (Japan).sfc`
 
 ## Was ihr am Ende startet
 

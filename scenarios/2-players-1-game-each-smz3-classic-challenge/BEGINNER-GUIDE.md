@@ -34,6 +34,13 @@ Wichtig:
 
 - `SNI` steckt laut aktuellem Guide schon in `MultiworldGG`
 
+Fuer diesen Guide sind die Basis-ROMs nicht beliebig.
+
+Die klaren Ziel-Dateien fuer eure Vorbereitung sind:
+
+- `Super Metroid (Japan, USA).sfc`
+- `Zelda no Densetsu - Kamigami no Triforce (Japan).sfc`
+
 ## Was ihr herunterladen muesst
 
 1. Lade `MultiworldGG` herunter von:
@@ -44,6 +51,17 @@ Wichtig:
 Fuer diese Repo-Doku ist der einfachste Windows-Weg:
 
 - `BizHawk`
+
+Weitere SNI-kompatible Emulatoren, die im zugrunde liegenden Guide genannt werden:
+
+- `snes9x-nwa`
+- `snes9x-rr`
+- `BSNES-plus`
+- `RetroArch 1.10.3 oder neuer`
+
+Trotzdem bleibt fuer diese Repo-Doku:
+
+- `BizHawk` als Standard
 
 ## Einen sauberen Windows-Ordner anlegen
 
@@ -67,6 +85,11 @@ MWGG-SMZ3/
 
 4. Entpacke `BizHawk` nach `emulator/`.
 5. Lege beide Basis-ROMs nach `roms/`.
+
+Fuer diesen Guide sollen dort konkret liegen:
+
+- `Super Metroid (Japan, USA).sfc`
+- `Zelda no Densetsu - Kamigami no Triforce (Japan).sfc`
 
 ## In welcher Reihenfolge ihr es machen solltet
 
@@ -175,8 +198,8 @@ Laut Guide passiert dann automatisch:
 - euer Emulator wird geoeffnet
 
 3. Wenn du beim ersten Mal nach Basis-ROMs gefragt wirst:
-   - gib zuerst die `Super Metroid`-ROM an
-   - danach die japanische `Zelda 3 v1.0`-ROM
+   - gib zuerst `Super Metroid (Japan, USA).sfc` an
+   - danach `Zelda no Densetsu - Kamigami no Triforce (Japan).sfc`
 
 4. Wenn `SNI` beim ersten Start nach Firewall-Rechten fragt:
    - erlauben

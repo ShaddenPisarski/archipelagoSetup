@@ -53,6 +53,32 @@ Der aktuelle Guide sagt hier ausdruecklich:
 
 Das ist fuer einen echten Multiworld-Run ein grosser Nachteil.
 
+## Bevor ihr den Switch-Pfad waehlt
+
+Ihr solltet **nicht** blind davon ausgehen, dass jede `Switch` einfach modfaehig ist.
+
+Die sichere Faustregel fuer diese Repo-Doku ist:
+
+- alte ungepatchte `V1`-Switch -> Software-/`RCM`-Pfad kann moeglich sein
+- `V2` / `Mariko`
+- `Lite`
+- `OLED`
+
+-> brauchen in der Regel einen Modchip-Pfad
+
+Der aktuelle `NH Switch Guide` trennt diese Faelle klar.
+
+Darum gilt fuer euch:
+
+1. erst Seriennummer in den Systemeinstellungen pruefen
+2. dann auf dieser Seite den passenden `NH Switch Guide`-Pfad bestimmen:
+   - `https://switch.hacks.guide/user_guide/getting_started`
+3. erst danach hier im `SMO`-Guide weitermachen
+
+Wenn euch das zu aufwendig oder unsicher ist:
+
+- nehmt fuer den ersten Test eher den Emulator-Pfad
+
 ## Die 2 Slot-Namen
 
 Verwendet fuer den ersten Run genau diese Namen:
@@ -68,6 +94,18 @@ Verwendet fuer den ersten Run genau diese Namen:
 3. Lade passend zu eurem geplanten Weg herunter:
    - `SMO_Archipelago_Vx.x_Switch.zip`
    - oder `SMO_Archipelago_Vx.x_Emu.zip`
+
+## Region und Spielversion
+
+Hier ist wichtig:
+
+Die aktuelle `MWGG`-Setup-Seite nennt fuer `Super Mario Odyssey` **keine** feste Regions- oder Versionsangabe wie `USA`, `EU`, `JP`, `1.0.0` oder `1.3.0`.
+
+Darum gilt fuer diese Repo-Doku:
+
+- keine falsche exakte Versionsbehauptung hinschreiben
+- die Mod-Release und den Spielstand zusammen testen
+- erst einen kurzen Testseed machen, bevor ihr euch auf einen langen Run festlegt
 
 ## Switch-Pfad
 
