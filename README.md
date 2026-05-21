@@ -25,6 +25,7 @@ archipelagoSetup/
     templates/
   scenarios/
     2-players-3-games-each-mwgg-mixed-multiworld/
+    2-players-2-games-each-sm64-romhacks-mwgg/
     2-players-1-game-each-smz3-classic-challenge/
     2-players-1-game-each-super-mario-odyssey-deathlink/
     2-players-2-games-each-with-deathlink/
@@ -61,6 +62,12 @@ archipelagoSetup/
   - `Pokemon Crystal` + `Dark Souls Remastered` + `Dark Souls III`
   - 6 Slots in einem Room
   - echter spieluebergreifender `MWGG`-Multiworld-Run
+- [2 players, 2 games each, SM64 Romhacks MWGG](./scenarios/2-players-2-games-each-sm64-romhacks-mwgg/README.md)
+  - 2 Spieler
+  - 2 Spiele pro Spieler
+  - `Super Mario Star Road` + `SM 64 Last Impact`
+  - 4 Slots in einem Room
+  - `Stars`, `Keys`, `Caps` und `Cannons` werden zwischen den Slots verteilt
 - [2 players, 1 game each, SMZ3 classic challenge](./scenarios/2-players-1-game-each-smz3-classic-challenge/README.md)
   - 2 Spieler
   - 1 Spiel pro Spieler
@@ -100,6 +107,10 @@ Wenn du genau euer jetziges `Archipelago`-Setup spielen willst:
 Wenn du den neuen `MWGG`-Pfad fuer euch beide bauen willst:
 
 - [scenarios/2-players-3-games-each-mwgg-mixed-multiworld/README.md](./scenarios/2-players-3-games-each-mwgg-mixed-multiworld/README.md)
+
+Wenn du `Star Road` und `Last Impact` als gemeinsamen `MWGG`-Romhack-Run bauen willst:
+
+- [scenarios/2-players-2-games-each-sm64-romhacks-mwgg/README.md](./scenarios/2-players-2-games-each-sm64-romhacks-mwgg/README.md)
 
 Wenn du die neue `SMZ3`-Challenge bauen willst:
 

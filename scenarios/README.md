@@ -18,6 +18,7 @@ Spielespezifische Grundlagen liegen nicht hier, sondern unter:
 ### MultiworldGG
 
 - [2 players, 3 games each, MWGG mixed multiworld](./2-players-3-games-each-mwgg-mixed-multiworld/README.md)
+- [2 players, 2 games each, SM64 Romhacks MWGG](./2-players-2-games-each-sm64-romhacks-mwgg/README.md)
 - [2 players, 1 game each, SMZ3 classic challenge](./2-players-1-game-each-smz3-classic-challenge/README.md)
 - [2 players, 1 game each, Super Mario Odyssey DeathLink](./2-players-1-game-each-super-mario-odyssey-deathlink/README.md)
 

@@ -1,0 +1,29 @@
+SM64 Romhacks MWGG Slot Plan
+============================
+
+Room URL:
+Password:
+
+Slot 1: You_StarRoad
+Hack: Super Mario Star Road
+PC:
+
+Slot 2: Brother_StarRoad
+Hack: Super Mario Star Road
+PC:
+
+Slot 3: You_LastImpact
+Hack: SM 64 Last Impact
+PC:
+
+Slot 4: Brother_LastImpact
+Hack: SM 64 Last Impact
+PC:
+
+First run defaults:
+- Death Link = No
+- Accessibility = Full
+- Progression Balancing = Normal
+
+Optional second seed:
+- Death Link = Yes on all 4 slots
