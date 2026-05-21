@@ -88,10 +88,41 @@ Wichtig fuer diese Repo-Doku:
 
 Bei diesem `MWGG`-Pfad benutzt ihr **nicht** die gebaute `SM64AP`-PC-EXE aus dem normalen `Archipelago-SM64`-Setup.
 
-Hier benutzt ihr:
+Hier benutzt ihr am Ende:
 
-- die fertige `Star Road`-ROM-Datei
-- die fertige `Last Impact`-ROM-Datei
+- eine fertig gepatchte `Star Road`-ROM-Datei
+- eine fertig gepatchte `Last Impact`-ROM-Datei
+
+## Wie die zwei Hack-ROMs gebaut werden
+
+Fuer diese Repo-Doku ist der einfachste aktuelle Weg:
+
+1. eine passende originale `Super Mario 64`-Basis-ROM bereithalten
+2. auf `sm64romhacks.com` die Hack-Seite oeffnen
+3. dort den `Patch File`-Download nutzen
+4. den `Online Patcher` der Seite benutzen
+5. als `ROM File` eure originale Basis-ROM waehlen
+6. als `Patch File` die heruntergeladene Hack-Patch-Datei waehlen
+7. die fertige gepatchte Hack-ROM herunterladen
+
+Wichtig:
+
+- der aktuelle `sm64romhacks.com`-Patcher nennt als Eingabe explizit die originale `Super Mario 64`-ROM
+- der dort genannte Patch-Typ ist aktuell `BPS`
+- fuer diese Repo-Doku ist das der Standardweg
+
+## Repo-Standard fuer eure zwei Hacks
+
+Diese Repo-Doku legt fuer den Einsteigerpfad bewusst einen klaren Standard fest:
+
+- `Star Road`: die aktuelle Haupt- oder `Enhanced`-Patch-Datei von der `Super Mario Star Road`-Seite
+- `Last Impact`: die aktuelle Haupt-Patch-Datei von der `SM 64 Last Impact`-Seite
+
+Wenn auf der Hack-Seite mehrere Varianten stehen, gilt fuer euren ersten Run:
+
+- beide Spieler benutzen **dieselbe** `Star Road`-Version
+- beide Spieler benutzen **dieselbe** `Last Impact`-Version
+- nicht verschiedene Releases eines Hacks mischen
 
 Wichtig:
 
@@ -101,6 +132,7 @@ Wichtig:
 
 Darum gilt fuer dieses Repo nur diese saubere Arbeitsregel:
 
+- baut beide Hack-ROMs aus derselben passenden Original-ROM-Basis
 - benutzt genau die Hack-ROM, die zu `Super Mario Star Road` gehoert
 - benutzt genau die Hack-ROM, die zu `SM 64 Last Impact` gehoert
 - mischt nicht mehrere verschiedene Releases desselben Hacks durcheinander

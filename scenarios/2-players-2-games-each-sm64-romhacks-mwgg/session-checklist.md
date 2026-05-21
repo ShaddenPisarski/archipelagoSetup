@@ -6,8 +6,9 @@
 - `Luna's Project64` ist auf beiden PCs entpackt
 - `connector_bizhawkclient_pj64.js` liegt im `Project64`-Scripts-Ordner
 - der `stardisplay`-Join-Client ist bereit
-- `Star Road`-ROM liegt bereit
-- `Last Impact`-ROM liegt bereit
+- die originale `SM64`-Basis-ROM liegt bereit
+- die fertige `Star Road`-ROM liegt bereit
+- die fertige `Last Impact`-ROM liegt bereit
 - Room ist erstellt
 
 ## Slot-Namen pruefen

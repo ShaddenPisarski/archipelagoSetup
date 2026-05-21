@@ -24,8 +24,9 @@ Auf beiden Windows-PCs:
 
 - `MultiworldGG`
 - `Luna's Project64`
-- die `Star Road`-ROM-Datei
-- die `Last Impact`-ROM-Datei
+- eine originale `Super Mario 64`-Basis-ROM
+- die `Star Road`-Patch-Datei
+- die `Last Impact`-Patch-Datei
 - das `PJ64 Connector Script`
 
 Fuer diesen Guide gilt:
@@ -43,6 +44,8 @@ Fuer diesen Guide gilt:
 3. Lade das `PJ64 Connector Script` herunter von:
    - `https://gist.github.com/Zunawe/65f0259710bccb4f0ff67c05cb5c2545`
 4. Lege den im offiziellen Setup-Guide genannten `stardisplay`-Join-Client ebenfalls in euren Arbeitsordner, falls euer aktuelles Release-Paket ihn getrennt ausliefert.
+5. Oeffne die Hack-Seiten von `Super Mario Star Road` und `SM 64 Last Impact` auf `sm64romhacks.com`.
+6. Lade dort jeweils die aktuelle `Patch File`-Datei herunter.
 
 Wichtig beim Connector:
 
@@ -67,6 +70,7 @@ MWGG-SM64-Romhacks/
   connector/
   stardisplay/
   roms/
+    base/
     StarRoad/
     LastImpact/
   notes/
@@ -90,30 +94,82 @@ Desktop\MWGG-SM64-Romhacks\connector
 Desktop\MWGG-SM64-Romhacks\stardisplay
 ```
 
-7. Lege eure `Star Road`-ROM nach:
+7. Lege eure originale `Super Mario 64`-Basis-ROM nach:
+
+```text
+Desktop\MWGG-SM64-Romhacks\roms\base
+```
+
+8. Lege die heruntergeladene `Star Road`-Patch-Datei nach:
 
 ```text
 Desktop\MWGG-SM64-Romhacks\roms\StarRoad
 ```
 
-8. Lege eure `Last Impact`-ROM nach:
+9. Lege die heruntergeladene `Last Impact`-Patch-Datei nach:
 
 ```text
 Desktop\MWGG-SM64-Romhacks\roms\LastImpact
 ```
 
+## Die zwei Hack-ROMs wirklich bauen
+
+Auf jedem PC:
+
+1. Oeffne die `Super Mario Star Road`-Seite auf `sm64romhacks.com`.
+2. Klicke dort auf `Online Patcher`.
+3. Bei `ROM File` waehle eure originale `Super Mario 64`-Basis-ROM aus:
+
+```text
+Desktop\MWGG-SM64-Romhacks\roms\base
+```
+
+4. Bei `Patch File` waehle die heruntergeladene `Star Road`-Patch-Datei aus:
+
+```text
+Desktop\MWGG-SM64-Romhacks\roms\StarRoad
+```
+
+5. Starte den Patch-Vorgang.
+6. Lade danach die fertige gepatchte `Star Road`-ROM herunter.
+7. Lege diese fertige Datei wieder in:
+
+```text
+Desktop\MWGG-SM64-Romhacks\roms\StarRoad
+```
+
+8. Wiederhole genau dieselben Schritte fuer `SM 64 Last Impact`.
+9. Lege die fertige gepatchte `Last Impact`-ROM in:
+
+```text
+Desktop\MWGG-SM64-Romhacks\roms\LastImpact
+```
+
+Wichtig:
+
+- fuer den ersten Run sollen beide Spieler **dieselbe** `Star Road`-Version benutzen
+- fuer den ersten Run sollen beide Spieler **dieselbe** `Last Impact`-Version benutzen
+- benutzt nicht verschiedene Releases desselben Hacks durcheinander
+
+Woran du erkennst, dass dieser Teil fertig ist:
+
+- im `StarRoad`-Ordner liegt eine spielbare gepatchte Hack-ROM
+- im `LastImpact`-Ordner liegt eine spielbare gepatchte Hack-ROM
+- ihr koennt beide Dateien in `Project64` testweise oeffnen
+
 ## In welcher Reihenfolge ihr es machen solltet
 
 1. `MultiworldGG` installieren
 2. `Luna's Project64` entpacken
-3. beide Hack-ROMs in die richtigen Ordner legen
-4. `Project64` einmal lokal vorbereiten
-5. 4 `SM64 Romhacks`-Optionsdateien exportieren
-6. Seed erzeugen
-7. Room erstellen
-8. erst `Star Road` verbinden
-9. dann `Last Impact` verbinden
-10. erst ganz zum Schluss optional `Death Link` ausprobieren
+3. die zwei Patch-Dateien herunterladen
+4. beide Hack-ROMs bauen
+5. `Project64` einmal lokal vorbereiten
+6. 4 `SM64 Romhacks`-Optionsdateien exportieren
+7. Seed erzeugen
+8. Room erstellen
+9. erst `Star Road` verbinden
+10. dann `Last Impact` verbinden
+11. erst ganz zum Schluss optional `Death Link` ausprobieren
 
 ## Die 4 Slot-Namen
 
@@ -136,7 +192,7 @@ Auf jedem PC:
 Desktop\MWGG-SM64-Romhacks\luna-pj64
 ```
 
-2. Oeffne testweise einmal eure `Star Road`-ROM.
+2. Oeffne testweise einmal eure fertige gepatchte `Star Road`-ROM.
 3. Klicke oben auf `Debugger`.
 4. Falls noetig, aktiviere `Enable Debugger`.
 5. Oeffne `Debugger -> Scripts`.
@@ -231,7 +287,7 @@ Erst verbinden:
 Auf jedem der beiden PCs:
 
 1. Oeffne `Project64.exe`.
-2. Oeffne die `Star Road`-ROM.
+2. Oeffne die fertige gepatchte `Star Road`-ROM.
 3. Oeffne `Debugger -> Scripts`.
 4. Suche links oder in der Liste nach:
    - `connector_bizhawkclient_pj64.js`
@@ -267,7 +323,7 @@ Wenn `Star Road` sauber funktioniert, macht ihr genau dasselbe fuer:
 Also wieder:
 
 1. `Project64.exe` oeffnen
-2. `Last Impact`-ROM oeffnen
+2. fertige gepatchte `Last Impact`-ROM oeffnen
 3. `Debugger -> Scripts`
 4. `connector_bizhawkclient_pj64.js` starten
 5. den passenden Client mit dem richtigen Slot verbinden
@@ -315,7 +371,13 @@ Wichtig:
 ### Der falsche Hack startet
 
 - `Star Road` und `Last Impact` liegen im falschen Ordner
-- ihr habt die falsche ROM geoeffnet
+- ihr habt die falsche gepatchte ROM geoeffnet
+
+### Der Hack startet gar nicht
+
+- die Patch-Datei wurde nie zu einer fertigen Hack-ROM gebaut
+- falsche Basis-ROM im `Online Patcher` benutzt
+- beide Spieler benutzen unterschiedliche Hack-Versionen
 
 ### Der Room zeigt den Slot nicht richtig
 
